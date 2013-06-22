@@ -1,5 +1,5 @@
 今までの「PicasaWebAlbumExif_Python_CGI」※は本格的なCGIが動くサーバー上に配置して利用する必要があったのですが、
-「picasa-CGIHTTPServer」は、それをPythonの「CGIHTTPServer」を利用して誰でも簡単に使えるようにしようというものです。
+「picasa-CGIHTTPServer」は、それをPythonの「CGIHTTPServer」を利用して誰でも簡単に使えるようにしたものです。
 自身のパソコンにPythonさえインストールしてあればサーバー構築や設定の必要もなく誰でも簡単にCGIのWebアプリケーションが利用できます。
 
 ※「PicasaWebAlbumExif_Python_CGI」とはGoogleのPicasaウエブアルバム上の写真の一覧表示、写真情報の表示をするためのアプリケーションです。
@@ -10,9 +10,10 @@ Python 2.7.4
 Firefox
 
 多分、MacでもWindowsでも「Python」がインストールされてれば動くと思う
+（Mac、Windowsは試してないので・・・）
 
 ------環境設定------
-「picasa-CGIHTTPServer」フォルダを何処か適当な場所に配置する
+「picasa-CGIHTTPServer」フォルダをまるごと自身のPCの何処か適当な場所に配置する
 
 ------実行方法（Mac、Windows、Linux共通）------
 
