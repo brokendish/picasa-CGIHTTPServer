@@ -31,6 +31,6 @@ http://xxx.xxx.xxx.xxx:8000
 
 ------実行方法（Linuxの場合は以下の方法でも実行可能）------
 
-「execute.bash」を起動する
+「Firefox_execute_Linux.bash」を起動する
 と、Webサーバの起動、Firefoxを起動して表示します。
 ※Firefoxがインストールされている必要があります
