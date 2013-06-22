@@ -6,26 +6,25 @@ Firefox
 多分、MacでもWindowsでも「Python」がインストールされてれば動くと思う
 
 
-------環境設定------
-このファイルが入っている「picasa-CGIHTTPServer」フォルダを何処か適当な場所に配置する
+------動作確認環境------ 
+Ubuntu 13.04 
+Python 2.7.4 
+Firefox
 
+多分、MacでもWindowsでも「Python」がインストールされてれば動くと思う （Mac、Windowsは試してないので・・・）
+
+------環境設定------
+
+「picasa-CGIHTTPServer」フォルダをまるごと自身のPCの何処か適当な場所に配置する
 
 ------実行方法（Mac、Windows、Linux共通）------
 
-コマンドプロンプトでこのファイルが入っているフォルダに移動
+・このファイルが入っているフォルダに移動 cd picasa-CGIHTTPServer
 
-cd picasa-CGIHTTPServer
+・コマンドプロンプトで下記を実行 python -m CGIHTTPServer
 
-
-コマンドプロンプトで下記を実行
-
-python -m CGIHTTPServer
-
-
-Webブラウザでポート：8000にアクセス。
-http://xxx.xxx.xxx.xxx:8000
-
+・Webブラウザでポート：8000にアクセス。 http://xxx.xxx.xxx.xxx:8000
 
 ------実行方法（Linuxの場合は以下の方法でも実行可能）------
-「execute.bash」を起動する
 
+「Firefox_execute_Linux.bash」を起動する と、Webサーバの起動、Firefoxを起動して表示します。 ※Firefoxがインストールされている必要があります
